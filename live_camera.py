@@ -10,7 +10,6 @@ while True:
     if not ret:
         print("Couldn't access webcam.")
         break
-
     # Show the live feed (unprocessed, so it's smooth)
     cv2.imshow("Live Feed - Press SPACE to detect", frame)
 
